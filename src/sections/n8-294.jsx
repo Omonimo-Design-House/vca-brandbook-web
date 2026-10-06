@@ -16,7 +16,7 @@ export default function Component04Adn() {
           <p className="[word-break:break-word] absolute font-['Google_Sans_Flex:Thin'] font-thin leading-[64px] left-[360px] not-italic text-[#0c0c0c] text-[64px] w-[1330px]" style={{ ...fv, top, height: h }}>
             {text}
           </p>
-          <div className="absolute content-stretch flex flex-col items-start left-[81px] overflow-clip" style={{ top }} data-name="Meta">
+          <div className="absolute content-stretch flex flex-col items-start left-[81px]" style={{ top }} data-name="Meta">
             <p className="[word-break:break-word] font-['Google_Sans_Flex:SemiBold'] font-semibold leading-[27px] not-italic relative shrink-0 text-[#0c0c0c] text-[20px] uppercase whitespace-nowrap" style={fv}>
               {label}
             </p>

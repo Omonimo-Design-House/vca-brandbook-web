@@ -14,7 +14,7 @@ export function TopRules({ color = '#0c0c0c' }) {
 // "VC Arquitectura® / Brand Guidelines" meta block, top left.
 export function Meta({ left = 81, color = '#0c0c0c', dim = 'rgba(12,12,12,0.45)' }) {
   return (
-    <div className="[word-break:break-word] absolute content-stretch flex flex-col font-['Google_Sans_Flex:Medium'] font-medium gap-px items-start leading-[normal] not-italic overflow-clip text-[15px] top-[72px] whitespace-nowrap" style={{ left }} data-name="Meta">
+    <div className="[word-break:break-word] absolute content-stretch flex flex-col font-['Google_Sans_Flex:Medium'] font-medium gap-px items-start leading-[normal] not-italic text-[15px] top-[72px] whitespace-nowrap" style={{ left }} data-name="Meta">
       <p className="relative shrink-0" style={{ ...fv, color }}>VC Arquitectura®</p>
       <p className="relative shrink-0" style={{ ...fv, color: dim }}>Brand Guidelines</p>
     </div>
@@ -24,7 +24,7 @@ export function Meta({ left = 81, color = '#0c0c0c', dim = 'rgba(12,12,12,0.45)'
 // Section title next to the meta block (32px Medium).
 export function Title({ left = 365, color = '#0c0c0c', children }) {
   return (
-    <div className="absolute content-stretch flex flex-col items-start overflow-clip top-[72px]" style={{ left }} data-name="Meta">
+    <div className="absolute content-stretch flex flex-col items-start top-[72px]" style={{ left }} data-name="Meta">
       <p className="[word-break:break-word] font-['Google_Sans_Flex:Medium'] font-medium leading-[normal] not-italic relative shrink-0 text-[32px] whitespace-nowrap" style={{ ...fv, color }}>
         {children}
       </p>
@@ -57,7 +57,7 @@ export function Pill({ id, linkId, left, top, href, children }) {
 // Italic grey subtitle under the section title (y=116).
 export function Subtitle({ left = 365, children }) {
   return (
-    <div className="absolute content-stretch flex flex-col items-start overflow-clip top-[116px]" style={{ left }} data-name="Meta">
+    <div className="absolute content-stretch flex flex-col items-start top-[116px]" style={{ left }} data-name="Meta">
       <p className="[word-break:break-word] font-['Google_Sans_Flex:Light_Italic'] font-light italic leading-[normal] relative shrink-0 text-[24px] text-[rgba(12,12,12,0.45)] whitespace-nowrap" style={fv}>
         {children}
       </p>

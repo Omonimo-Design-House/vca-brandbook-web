@@ -3,7 +3,7 @@ const imgReglaLateral = "https://www.figma.com/api/mcp/asset/722c246e-7787-4936-
 export default function Component02Introduccion() {
   return (
     <div className="bg-[#e9e5da] relative size-full" data-node-id="8:227" data-name="02 · Introducción">
-      <div className="[word-break:break-word] absolute content-stretch flex flex-col font-['Google_Sans_Flex:Medium'] font-medium gap-px items-start leading-[normal] left-[79px] not-italic overflow-clip text-[15px] top-[72px] whitespace-nowrap" data-node-id="8:230" data-name="Meta">
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col font-['Google_Sans_Flex:Medium'] font-medium gap-px items-start leading-[normal] left-[79px] not-italic text-[15px] top-[72px] whitespace-nowrap" data-node-id="8:230" data-name="Meta">
         <p className="relative shrink-0 text-[#0c0c0c]" data-node-id="8:231" style={{ fontVariationSettings: '"GRAD" 0, "ROND" 0, "wdth" 100' }}>
           VC Arquitectura®
         </p>
@@ -11,7 +11,7 @@ export default function Component02Introduccion() {
           Brand Guidelines
         </p>
       </div>
-      <div className="absolute content-stretch flex flex-col items-start left-[362px] overflow-clip top-[72px]" data-node-id="8:233" data-name="Meta">
+      <div className="absolute content-stretch flex flex-col items-start left-[362px] top-[72px]" data-node-id="8:233" data-name="Meta">
         <p className="[word-break:break-word] font-['Google_Sans_Flex:Medium'] font-medium leading-[normal] not-italic relative shrink-0 text-[#0c0c0c] text-[32px] whitespace-nowrap" data-node-id="8:234" style={{ fontVariationSettings: '"GRAD" 0, "ROND" 0, "wdth" 100' }}>
           Introducción
         </p>

@@ -24,11 +24,11 @@ export default function Component03Indice() {
       <div className="absolute h-[2px] left-[364px] top-[57px] w-[1476px]" data-node-id="8:254" data-name="Regla lateral">
         <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgReglaLateral} />
       </div>
-      <div className="[word-break:break-word] absolute content-stretch flex flex-col font-['Google_Sans_Flex:Medium'] font-medium gap-px items-start leading-[normal] left-[79px] not-italic overflow-clip text-[15px] top-[72px] whitespace-nowrap" data-node-id="8:255" data-name="Meta">
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col font-['Google_Sans_Flex:Medium'] font-medium gap-px items-start leading-[normal] left-[79px] not-italic text-[15px] top-[72px] whitespace-nowrap" data-node-id="8:255" data-name="Meta">
         <p className="relative shrink-0 text-[#0c0c0c]" data-node-id="8:256" style={fv}>VC Arquitectura®</p>
         <p className="relative shrink-0 text-[rgba(12,12,12,0.45)]" data-node-id="8:257" style={fv}>Brand Guidelines</p>
       </div>
-      <div className="absolute content-stretch flex flex-col items-start left-[361px] overflow-clip top-[72px]" data-node-id="8:258" data-name="Meta">
+      <div className="absolute content-stretch flex flex-col items-start left-[361px] top-[72px]" data-node-id="8:258" data-name="Meta">
         <p className="[word-break:break-word] font-['Google_Sans_Flex:Medium'] font-medium leading-[normal] not-italic relative shrink-0 text-[#0c0c0c] text-[32px] whitespace-nowrap" data-node-id="8:259" style={fv}>
           Index
         </p>

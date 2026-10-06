@@ -40,5 +40,5 @@ export default {
       html: `<div class="content-stretch drop-shadow-[0px_0px_3.9px_rgba(0,0,0,0.25)] flex items-center justify-center px-[22px] py-[10px] relative rounded-[47px] size-full"><button class="[word-break:break-word] block cursor-pointer font-['Google_Sans_Flex:Bold'] font-bold leading-[0] not-italic relative shrink-0 text-[#0c0c0c] text-[13px] text-left tracking-[1.95px] whitespace-nowrap" data-node-id="41:445"><p class="leading-[1.202]">MENÚ</p></button></div>` },
   ],
 
-  favicon: { asset: '752824e8-f203-41ff-85e7-d4f4cc818230.svg', touchBackground: '#b2bca2' },
+  favicon: { asset: '5fb957c4-8a23-47b0-8e3a-922f004fe868.svg', touchBackground: '#e9e5da' },
 };

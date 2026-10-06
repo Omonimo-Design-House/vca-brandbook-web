@@ -5,11 +5,11 @@ export default function Component01Portada() {
   return (
     <div className="bg-[#b2bca2] relative size-full" data-node-id="2:2" data-name="01 · Portada">
       <div className="absolute bg-[#0c0c0c] h-[1.5px] left-[365px] top-[57px] w-[1475px]" data-node-id="8:190" data-name="Regla lateral" />
-      <div className="[word-break:break-word] absolute content-stretch flex flex-col font-['Google_Sans_Flex:Medium'] font-medium gap-px items-start leading-[normal] left-[81px] not-italic overflow-clip text-[#0c0c0c] text-[15px] top-[72px] whitespace-nowrap" data-node-id="2:4" data-name="Meta">
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col font-['Google_Sans_Flex:Medium'] font-medium gap-px items-start leading-[normal] left-[81px] not-italic text-[#0c0c0c] text-[15px] top-[72px] whitespace-nowrap" data-node-id="2:4" data-name="Meta">
         <p className="relative shrink-0" data-node-id="2:5" style={{ fontVariationSettings: '"GRAD" 0, "ROND" 0, "wdth" 100' }}>{`By Omónimo Design House `}</p>
         <p className="relative shrink-0" data-node-id="2:6" style={{ fontVariationSettings: '"GRAD" 0, "ROND" 0, "wdth" 100' }}>{`(2026)© `}</p>
       </div>
-      <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-px items-start left-[365px] not-italic overflow-clip text-[#0c0c0c] top-[72px] whitespace-nowrap" data-node-id="8:191" data-name="Meta">
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-px items-start left-[365px] not-italic text-[#0c0c0c] top-[72px] whitespace-nowrap" data-node-id="8:191" data-name="Meta">
         <p className="font-['Google_Sans_Flex:Medium'] font-medium leading-[0] relative shrink-0 text-[0px]" data-node-id="8:192" style={{ fontVariationSettings: '"GRAD" 0, "ROND" 0, "wdth" 100' }}>
           <span className="leading-[normal] text-[32px]">VC Arquitectura</span>
           <span className="leading-[normal] text-[20.64px]" style={{ fontVariationSettings: '"GRAD" 0, "ROND" 0, "wdth" 100' }}>

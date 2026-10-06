@@ -3,7 +3,7 @@ import { fv, TopRules, OpenerMeta } from './_shared.jsx';
 export default function Component07DivisorDeSeccion() {
   return (
     <div className="bg-[#b2bca2] relative size-full" data-node-id="27:654" data-name="07 · Divisor de sección">
-      <div className="absolute content-stretch flex flex-col items-start left-[81px] overflow-clip top-[154px] w-[250px]" data-name="Intro">
+      <div className="absolute content-stretch flex flex-col items-start left-[81px] top-[154px] w-[250px]" data-name="Intro">
         <p className="[word-break:break-word] font-['Google_Sans_Flex:ExtraLight'] font-extralight leading-[normal] not-italic relative shrink-0 text-[#0c0c0c] text-[20px] text-right w-full" style={fv}>
           Texturas, ilustraciones, efectos: piezas sueltas que, aplicadas con criterio, le dan profundidad y carácter a cualquier comunicación de la marca
         </p>
