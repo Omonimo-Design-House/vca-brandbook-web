@@ -1,0 +1,17 @@
+@import "tailwindcss" source(none);
+@import "./generated.css";
+@source "../docs/index.html";
+
+/* iPadOS Safari "Text Autosizing" measures the unscaled design-width layout and inflates
+   text so it overflows its boxes. "100%" is ignored in iPad desktop mode, so use "none"
+   on every element, and give text boxes a max-height (autosizing skips those). */
+*, *::before, *::after { -webkit-text-size-adjust: none !important; text-size-adjust: none !important; }
+.page p, .page span, .page div, .page li, .page a, .page button { max-height: 999999px; }
+body { margin: 0; overflow-x: hidden; }
+/* The design is scaled with a transform from main.js (CSS zoom renders differently in
+   Safari); .stage reserves the scaled height so the document scrolls correctly. */
+.stage { position: relative; overflow: hidden; overflow: clip; } /* clip: Cmd+F / focus / scrollIntoView can't scroll it */
+.page { position: relative; transform-origin: 0 0; }
+.frame { display: block; position: relative; overflow: hidden; }
+.floating { position: fixed; top: 0; left: 0; z-index: 50; transform-origin: 0 0; }
+[data-nav] { cursor: pointer; }
